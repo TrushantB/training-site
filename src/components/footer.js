@@ -10,9 +10,11 @@ const Footer = ({ siteTitle }) => (
     }}
   >
     <footer>
-          © {new Date().getFullYear()}, Created By
+        <marquee>
+        © {new Date().getFullYear()}, Created By
           {` `}
           <a href="https://www.ivisionstudio.in" className="text-colour">iVision Web Studio</a>
+            </marquee> 
         </footer>
   </footer>
 )
