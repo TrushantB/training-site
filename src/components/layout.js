@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div
         style={{
           margin: `0 auto`,
@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
           <a href="https://www.ivisionstudio.in">iVision Web Studio</a>
         </footer> */}
       </div>
-     <Footer siteTitle={data.site.siteMetadata.title} />
+     {/* <Footer siteTitle={data.site.siteMetadata.title} /> */}
     </>
   )
 }
